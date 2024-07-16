@@ -1,0 +1,67 @@
+.movie-det-con {
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  border: none;
+  border-radius: 15px;
+  padding-right: 50px;
+}
+.movie-det-con ::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.15;
+  background: #324053;
+  border: none;
+  border-radius: 15px;
+}
+.movi-img {
+  height: 500px;
+  margin-right: 50px;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.mo-name {
+  color: #ffffff;
+  font-family: 'bernard';
+  font-size: 50px;
+}
+.star {
+  font-size: 20px;
+  color: gold;
+  margin-right: 10px;
+}
+.rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rat-co {
+  display: flex;
+  align-items: center;
+}
+.movie-det-sub-cont {
+  color: #bac6d6;
+}
+.adult {
+  background-color: green;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.det {
+  font-size: 20px;
+}
+.loading-cont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
